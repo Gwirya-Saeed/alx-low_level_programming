@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- *  * main - Entry point
- **
- ** Return: Always 0 (Success)
+* main - printer putchar
+* Return: 0 always
 **/
 int main(void)
-int _putchar(char c);
 {
-char putch[] = "_putchar";
-inti = 0;
-while (putch[i] != '\0')
-{
-_putchar (putch[i]);
-i++;
-}
-_putchar ('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
 return (0);
 }
