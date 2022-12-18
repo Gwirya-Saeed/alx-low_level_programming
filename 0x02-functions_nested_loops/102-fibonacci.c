@@ -22,7 +22,7 @@ unsigned long fib1 = 0, fib2 = 1, sum;
 			(count == 49)
 			printf("\n");
 		else
-			printf(", ";
+			printf(", ");
 					}
 					return (0);
 					}
