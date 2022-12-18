@@ -19,7 +19,7 @@ unsigned long fib1 = 0, fib2 = 1, sum;
 		fib2 = sum;
 
 		if
-			(count = 49)
+			(count == 49)
 			printf("\n");
 		else
 			printf(", ";
