@@ -11,6 +11,8 @@ int check(int a, int b)
 		return (0);
 	else if (a > b / 2)
 		return (1);
+	else
+		return (check(a + 1, b));
 }
 /**
  * is_prime_number - states if number is prime
